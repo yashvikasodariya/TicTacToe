@@ -1,0 +1,71 @@
+/* Complete JavaScript -----Tic Tac Toe */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightslategray;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin; 
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 8vmin;
+    color:rgb(170, 36, 36);
+    background-color: lightgray;
+}
+
+#reset {
+    background-color: rgb(12, 11, 11);
+    color: white;
+    font-size: 5vmin;
+    border-radius: 2rem;
+    border: none;
+    padding: 1vmin 2vmin;
+    cursor: pointer;
+}
+
+#new-btn {
+    background-color: rgb(12, 11, 11);
+    color: white;
+    font-size: 5vmin;
+    border-radius: 2rem;
+    border: none;
+    padding: 1vmin 2vmin;
+    cursor: pointer;
+}
+
+#msg {
+    color: rgb(232, 232, 232);
+    font-size: 8vmin;
+}
+
+.msg-container {
+    height: 20vmin;
+}
+
+.hide {
+    display: none;
+}
